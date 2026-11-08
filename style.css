@@ -1,4 +1,4 @@
-/* Shared Common Stylesheet - Under 3.5 KB */
+/* Shared Common Stylesheet - Responsive, High Performance, Mobile First */
 :root {
   --bg: #0b0f19;
   --surface: #141c2e;
@@ -40,9 +40,9 @@ header {
   background: var(--surface-alt);
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  padding: 6px 14px;
+  padding: 6px 13px;
   border-radius: 20px;
   border: 1px solid var(--border);
   transition: all 0.2s;
@@ -53,13 +53,28 @@ header {
   border-color: var(--accent);
 }
 
+/* Breadcrumb Navigation */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 14px 0 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.breadcrumb a { color: var(--accent-alt); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { color: var(--border); }
+
 /* Result Board Cards */
 .hero-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px;
-  margin: 20px 0;
+  margin: 16px 0 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 .card-header {
@@ -104,10 +119,12 @@ header {
 }
 .round-val.win { color: var(--accent); text-shadow: 0 0 16px var(--accent-glow); }
 
-/* Quick Multi-game Grid */
+/* Multi-game Grid */
 .multi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 18px 0; }
 .sub-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
 .sub-card h3 { font-size: 1rem; margin-bottom: 8px; display: flex; justify-content: space-between; }
+.sub-card h3 a { color: #fff; text-decoration: none; }
+.sub-card h3 a:hover { color: var(--accent); }
 .sub-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; text-align: center; }
 .sub-box { background: var(--surface-alt); padding: 8px; border-radius: 6px; }
 .sub-box .val { font-size: 1.75rem; font-weight: 800; color: var(--accent); }
@@ -119,14 +136,78 @@ th { background: var(--surface-alt); color: var(--text-muted); font-weight: 600;
 td { padding: 10px 12px; border-top: 1px solid var(--border); }
 tr:hover { background: rgba(255, 255, 255, 0.02); }
 
+/* Tab / Month Selectors */
+.month-tabs { display: flex; gap: 6px; overflow-x: auto; padding: 6px 0 12px; margin-bottom: 12px; }
+.month-btn {
+  background: var(--surface-alt);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.month-btn.active, .month-btn:hover {
+  background: var(--accent);
+  color: #042f2e;
+  border-color: var(--accent);
+}
+
+/* Search Filter Box */
+.search-input {
+  width: 100%;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.search-input:focus { outline: none; border-color: var(--accent); }
+
 /* Content & FAQs */
 .info-section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin: 20px 0; }
 .info-section h2 { font-size: 1.25rem; margin-bottom: 12px; color: #fff; }
 .info-section p { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 12px; }
+.info-section ul, .info-section ol { margin-left: 20px; margin-bottom: 14px; font-size: 0.92rem; color: var(--text-muted); }
+.info-section li { margin-bottom: 6px; }
 details { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; margin-bottom: 8px; }
 summary { font-weight: 600; cursor: pointer; color: #fff; }
 details p { margin-top: 8px; font-size: 0.88rem; color: var(--text-muted); }
 
-/* Footer */
-footer { text-align: center; padding: 24px 0 10px; color: #64748b; font-size: 0.8rem; border-top: 1px solid var(--border); margin-top: 30px; }
-footer a { color: var(--text-muted); text-decoration: none; }
+/* Authority Location Card */
+.location-card {
+  background: var(--surface-alt);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 600px) {
+  .location-card { grid-template-columns: 1fr 1fr; }
+}
+.location-item h4 { font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px; }
+.location-item p { font-size: 0.92rem; color: #fff; margin: 0; }
+
+/* Semantic Footer Silo */
+.footer-silo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  text-align: left;
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 36px;
+}
+.silo-col h3 { font-size: 0.9rem; font-weight: 700; color: #fff; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+.silo-col ul { list-style: none; margin: 0; padding: 0; }
+.silo-col li { margin-bottom: 7px; }
+.silo-col a { color: var(--text-muted); text-decoration: none; font-size: 0.85rem; }
+.silo-col a:hover { color: var(--accent); }
+.copyright { text-align: center; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.05); color: #64748b; font-size: 0.78rem; }

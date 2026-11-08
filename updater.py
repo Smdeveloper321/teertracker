@@ -94,6 +94,21 @@ def update_common_numbers_html(data):
         f.write(html)
     print(f"Updated shillong-teer-common-number.html dateModified={now_iso}")
 
+def update_previous_results_html(data):
+    prev_path = BASE_DIR / "teer-previous-results.html"
+    if not prev_path.exists():
+        return
+        
+    with open(prev_path, "r", encoding="utf-8") as f:
+        html = f.read()
+        
+    now_iso = datetime.now().strftime("%Y-%m-%dT%H:%M:00+05:30")
+    html = re.sub(r'"dateModified":\s*"[^"]+"', f'"dateModified": "{now_iso}"', html)
+    
+    with open(prev_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"Updated teer-previous-results.html dateModified={now_iso}")
+
 if __name__ == "__main__":
     try:
         shillong_data = fetch_cdn_json("/teer/api/results/latest/index.json")
@@ -103,6 +118,8 @@ if __name__ == "__main__":
         cn_data = fetch_cdn_json("/teer/api/common-numbers/latest/index.json")
         print(f"Live Common Numbers: {cn_data}")
         update_common_numbers_html(cn_data)
+        
+        update_previous_results_html(shillong_data)
         
         print("All updates completed successfully.")
     except Exception as e:
