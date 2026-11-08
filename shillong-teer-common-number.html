@@ -195,6 +195,129 @@
       </div>
     </section>
 
+        <!-- Interactive Club Chart Result Calculator -->
+    <section class="info-section" id="calculator">
+      <h2>Club Chart Result Calculator (Arrow Formula Engine)</h2>
+      <p>
+        Calculate target House, Ending, and Direct Pairs mathematically using the traditional Khasi Club Chart Previous Day Sum and Variance formulas:
+      </p>
+
+      <div class="calc-card">
+        <div class="calc-grid">
+          <div class="calc-field">
+            <label for="calc-fr">Yesterday First Round (FR):</label>
+            <input type="number" id="calc-fr" min="0" max="99" placeholder="e.g. 25" value="25">
+          </div>
+          <div class="calc-field">
+            <label for="calc-sr">Yesterday Second Round (SR):</label>
+            <input type="number" id="calc-sr" min="0" max="99" placeholder="e.g. 47" value="47">
+          </div>
+        </div>
+        <button type="button" class="calc-btn" onclick="calculateTeerFormula()">Calculate Target Numbers</button>
+
+        <div id="calc-results" class="calc-results">
+          <div style="font-size: 0.85rem; font-weight: 700; color: #fff; margin-bottom: 6px;">Club Chart Mathematical Targets:</div>
+          <div class="calc-res-grid">
+            <div class="calc-res-box">
+              <div class="calc-res-lbl">House Targets</div>
+              <div class="calc-res-val" id="calc-houses">7, 2</div>
+            </div>
+            <div class="calc-res-box">
+              <div class="calc-res-lbl">Ending Targets</div>
+              <div class="calc-res-val" id="calc-endings">2</div>
+            </div>
+            <div class="calc-res-box">
+              <div class="calc-res-lbl">Direct Pairs</div>
+              <div class="calc-res-val" id="calc-direct" style="font-size: 1rem;">72, 22</div>
+            </div>
+          </div>
+          <div style="margin-top: 10px; font-size: 0.78rem; color: var(--text-muted);">
+            Sum Formula: <span id="calc-sum">25 + 47 = 72</span> | Difference Variance: <span id="calc-diff">|25 - 47| = 22</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Master Result Timetable of All Games -->
+    <section class="info-section" id="schedule">
+      <h2>Result Time of All Games (Master Shooting &amp; Declaration Schedule)</h2>
+      <p>
+        Daily shooting start times and official declaration windows across Meghalaya, Assam, and border archery ranges:
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Game Name</th>
+              <th>Range / Ground Location</th>
+              <th>First Round (FR)</th>
+              <th>Second Round (SR)</th>
+              <th>Operating Days</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Shillong Arrow (Shillong Teer)</strong></td>
+              <td>Polo Ground, Shillong</td>
+              <td><strong style="color: var(--accent);">3:45 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Shooting 3:30 PM)</span></td>
+              <td><strong style="color: var(--accent-alt);">4:45 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Shooting 4:30 PM)</span></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Khanapara Teer (Assam Teer)</strong></td>
+              <td>Khanapara / Ri-Bhoi Border</td>
+              <td><strong style="color: var(--accent);">4:15 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Shooting 4:10 PM)</span></td>
+              <td><strong style="color: var(--accent-alt);">5:00 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Shooting 4:45 PM)</span></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Juwai Arrow (Juwai Teer)</strong></td>
+              <td>Jowai, West Jaintia Hills</td>
+              <td><strong style="color: var(--accent);">2:15 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Declared 2:30 PM)</span></td>
+              <td><strong style="color: var(--accent-alt);">3:00 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Declared 3:10 PM)</span></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Bhutan Arrow (Bhutan Teer)</strong></td>
+              <td>Samdrup Jongkhar / Border</td>
+              <td><strong style="color: var(--accent);">4:10 PM</strong></td>
+              <td><strong style="color: var(--accent-alt);">4:40 PM</strong></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Shillong Morning Teer</strong></td>
+              <td>Polo Commercial Range</td>
+              <td><strong style="color: var(--accent);">10:30 AM</strong></td>
+              <td><strong style="color: var(--accent-alt);">11:30 AM</strong></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Khanapara Morning Teer</strong></td>
+              <td>Khanapara Early Range</td>
+              <td><strong style="color: var(--accent);">10:30 AM</strong></td>
+              <td><strong style="color: var(--accent-alt);">11:30 AM</strong></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Knight Arrow (Night Teer)</strong></td>
+              <td>Shillong Night Range</td>
+              <td><strong style="color: var(--accent);">8:30 PM</strong> / 10:30 PM</td>
+              <td><strong style="color: var(--accent-alt);">9:30 PM</strong> / 11:30 PM</td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+            <tr>
+              <td><strong>Jowai Ladrymbai Arrow</strong></td>
+              <td>East Jaintia Hills Range</td>
+              <td><strong style="color: var(--accent);">4:45 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Round 1)</span></td>
+              <td><strong style="color: var(--accent-alt);">4:50 PM</strong> <span style="font-size: 0.75rem; color: var(--text-muted);">(Round 2)</span></td>
+              <td>Mon &ndash; Sat</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <!-- Formula Calculation Guide -->
     <article class="info-section">
       <h2>How Teer Common Numbers Are Calculated (Formulas Explained)</h2>
