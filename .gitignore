@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+scratch/
+
+# Temporary analysis dumps
+cluster_analysis_output*.txt
+competitor_audit_raw.json
+inspect_all_competitors.py
+competitor_analyzer.py
+print_cluster_details.py
+summarize_audit.py
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/

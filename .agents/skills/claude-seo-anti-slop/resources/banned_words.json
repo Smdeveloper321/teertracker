@@ -1,0 +1,67 @@
+{
+  "banned_words_and_phrases": {
+    "fluff_verbs": [
+      "delve", "delving", "embark", "unleash", "harness", "foster", "elevate", 
+      "revolutionize", "navigate", "demystify", "curate", "streamline", "transcend",
+      "pave the way", "unlock", "empower", "spearhead", "supercharge"
+    ],
+    "fluff_nouns": [
+      "tapestry", "beacon", "testament", "landscape", "realm", "paradigm", 
+      "synergy", "plethora", "panacea", "cornucopia", "labyrinth", "nexus",
+      "game-changer", "powerhouse", "linchpin", "cornerstone", "catalyst"
+    ],
+    "overused_adjectives": [
+      "crucial", "pivotal", "paramount", "bustling", "vibrant", "multifaceted", 
+      "transformative", "seamless", "cutting-edge", "groundbreaking", "unparalleled", 
+      "invaluable", "indispensable", "burgeoning", "ever-evolving", "holistic",
+      "meticulous", "resplendent", "breathtaking"
+    ],
+    "cliche_connectors": [
+      "furthermore", "moreover", "in addition to", "it is worth noting", 
+      "it is important to remember", "needless to say", "first and foremost", 
+      "last but not least", "by and large", "at the end of the day", 
+      "with that being said", "in the realm of", "when it comes to"
+    ],
+    "fake_promise_phrases": [
+      "in this comprehensive guide, we will uncover",
+      "read on to discover the secrets",
+      "whether you are a beginner or a seasoned pro",
+      "prepare to be amazed",
+      "without further ado, let's dive in",
+      "look no further",
+      "we've got you covered",
+      "buckle up",
+      "unlock the potential of",
+      "everything you need to know about"
+    ],
+    "robotic_conclusions": [
+      "in conclusion",
+      "to sum up",
+      "all in all",
+      "final thoughts",
+      "wrapping it up",
+      "is a journey, not a destination",
+      "the future looks bright"
+    ],
+    "ai_filler_intros": [
+      "in today's fast-paced world",
+      "in today's digital age",
+      "in the modern era",
+      "since time immemorial",
+      "in an ever-changing landscape"
+    ]
+  },
+  "replacements": {
+    "delve into": "look at, explore, examine, check",
+    "a testament to": "proof of, shows, reflects",
+    "in today's fast-paced world": "(Delete entirely — jump directly to the answer)",
+    "crucial / pivotal / paramount": "important, key, critical, vital, or specify why",
+    "seamless": "smooth, easy, direct, without friction",
+    "game-changer": "major improvement, big shift, significant change",
+    "tapestry": "mix, collection, system, structure",
+    "landscape": "market, space, industry, field",
+    "furthermore / moreover": "also, and, plus, or just start a new sentence",
+    "in conclusion": "(Delete header — state the final takeaway directly)",
+    "look no further": "(Delete — explain what the product/solution does directly)"
+  }
+}
