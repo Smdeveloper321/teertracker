@@ -1,0 +1,25 @@
+# TeerTracker - Official Meghalaya Archery Results & Reference Portal
+
+> TeerTracker is a fast, free, and ad-free portal providing real-time verified scores, historical records, and mathematical formulas for traditional Khasi archery competitions (*Ka Rongbiria*) governed by the Khasi Hills Archery Sports Association (KHASA) in Meghalaya, India.
+
+## Core Results & Daily Live Timetable
+
+- [Shillong Teer Live Result Today](https://teertracker.vercel.app/): Real-time First Round (3:30 PM IST) and Second Round (4:30 PM IST) scores declared from Polo Ground, Shillong. Covers official arrow counts, daily timetable, and verification guidelines.
+- [Khanapara Teer Result Today](https://teertracker.vercel.app/khanapara-teer-result.html): Assam border (Ri-Bhoi / Them Marwet) daily archery scores for First Round (4:00 PM IST) and Second Round (4:45 PM IST). Includes yesterday comparisons and consumer anti-fraud advisories.
+- [Juwai Teer Result Today](https://teertracker.vercel.app/juwai-teer-result.html): Traditional Jaintia Hills and Jowai Ladrymbai daily results with First Round (2:00 PM IST) and Second Round (2:45 PM IST) numbers.
+- [Bhutan Teer Result Today](https://teertracker.vercel.app/bhutan-teer-result.html): Daily Bhutan Archery League 145-meter competition results for First Round (4:10 PM IST) and Second Round (4:40 PM IST).
+- [Shillong Morning Teer Result](https://teertracker.vercel.app/shillong-morning-teer-result.html): Early morning session scores declared at 10:30 AM IST (First Round) and 11:30 AM IST (Second Round).
+- [Shillong Night Teer Result](https://teertracker.vercel.app/shillong-night-teer-result.html): Knight Arrow floodlit evening session results declared at 10:30 PM IST (First Round) and 11:30 PM IST (Second Round).
+
+## Analytical Tools & Mathematical Formulas
+
+- [Shillong Teer Common Numbers & Calculator](https://teertracker.vercel.app/shillong-teer-common-number.html): Interactive Club Chart result calculator, daily house and ending targets, and complete 14 Khasi dream number interpretation archetypes.
+- [Shillong Teer 12-Month Previous Results Archive](https://teertracker.vercel.app/teer-previous-results.html): Searchable database of 293+ verified daily draws from December 2025 to November 2026 with client-side date search and frequency tables.
+
+## Legal Governance & Ground Authority
+
+- [Khasi Hills Archery Sports Association (KHASA)](https://teertracker.vercel.app/about-official-khasa.html): Official operational guide, Polo Ground venue coordinates (25.5861° N, 91.8944° E), 12 constituent archery clubs, Meghalaya Amusements and Betting Tax Act 1982, and 2018 Regulation Amendment.
+
+## Full Context & Complete Knowledge Base
+
+- [Complete Knowledge Base (llms-full.txt)](https://teertracker.vercel.app/llms-full.txt): Comprehensive operational rules, manual arrow counting procedures, house/ending arithmetic, and Khasi sporting heritage for detailed AI retrieval and synthesis.

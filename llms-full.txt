@@ -1,0 +1,209 @@
+# TeerTracker Full Knowledge Base & Ground Rules Reference
+
+> Comprehensive Contextual Grounding for Large Language Models, AI Search Engines, and RAG Systems.
+> Domain: Traditional Meghalaya Archery, Khasi Hills Archery Sports Association (KHASA), Rules, Calculations, Timetables, and Legal Frameworks.
+
+---
+
+# Shillong Teer Archery Operations, Daily Results, and Official Ground Rules
+
+Archery is an old sport in the Khasi Hills of Meghalaya. Archers meet at Polo Ground in Shillong. They shoot from Monday to Saturday. They shoot bamboo arrows at grass targets. Field workers count the arrows. These arrows hit the target. The last two digits of that count make the winning number. People across northeast India track these daily archery scores.
+
+State offices run the game under official laws. Licensed counters sell paper tickets in local town markets. This text explains the daily shoot, counting rules, club histories, state laws, and number systems.
+
+## The Daily Archery Matches at Polo Ground
+
+The archery field sits at Polo Ground in Shillong. Green hills surround the open space. Local sports clubs manage the field. Spectators sit on wooden benches around the rope fence.
+
+### Target Distance and Wooden Equipment
+
+Archers stand fifty meters away from the target. The target is a round cylinder made from river reeds and straw. It measures one hundred centimeters tall and thirty centimeters wide. Workers hang the target on two wooden stakes. These stakes stand in the dirt. 
+
+Each archer uses a traditional longbow. Khasi bow makers build these bows by hand from split bamboo poles. They cure the bamboo over kitchen smoke fires for three months. This smoke stops the wood from cracking. Bowstrings come from twisted plant fibers or nylon cords. 
+
+Arrows measure seventy centimeters long. The shaft comes from thin hill bamboo. Workers cut the wood in winter. Archer workshops attach iron points to front tips. Small bird feathers sit on the rear notch to balance arrow flight.
+
+### The Fifty Archers and Arrow Counts
+
+Fifty licensed archers take part in the daily shoot. Twelve local sports clubs pick these fifty men from weekly shooting trials. Each man takes his spot along the shooting line.
+
+#### First Round Arrow Limits
+
+The first round starts at three thirty in the afternoon. Each archer gets thirty arrows. Fifty archers shoot thirty arrows each. That makes a pool of fifteen hundred arrows. 
+
+Whistle signals tell archers when to draw their bows. Archers shoot all thirty arrows. The shoot lasts four minutes. Arrows fly across the fifty-meter track together. They hit the straw target bundle in quick succession.
+
+#### Second Round Arrow Limits
+
+The second round starts at four thirty in the afternoon. Archers get twenty arrows each for this later shoot. Fifty archers shoot twenty arrows each. That makes a pool of one thousand arrows.
+
+Archers have three minutes to release their twenty shafts. Evening wind picks up. Wind sweeps down the valley. Archers change their aim to deal with crosswinds blowing. Winds blow off pine ridges.
+
+
+## Official Arrow Counting on the Field
+
+Counting begins the moment the final whistle sounds. Arrow marshals step onto the field. They guard the target area. Nobody may touch the shafts.
+
+### The Verification Circle at Polo Field
+
+Two club judges pull the target cylinder off its wooden frame. They carry the target into a painted white circle. The circle sits in the middle of the field. Members from registered archery clubs stand around this circle. State tax inspectors watch the scene.
+
+Workers pull arrows out of the target bundle five by five. They lay the shafts on woven bamboo mats. Counters call out numbers in the Khasi language. Observers mark tally boards in chalk. Any arrow that hit dirt does not count. Only arrows sticking firmly into straw get added to the tally.
+
+### The Tens and Units Rule for Two-Digit Scores
+
+The winning score always has two digits. It comes from the final count of all good arrows. If twelve hundred and forty-eight arrows hit the target, officials look at the last two digits. The number forty-eight becomes the official winning result.
+
+#### Reading the Tens Place (House)
+
+The first digit of that two-digit number is the house. If the winning number is forty-eight, the house is four. Ticket sellers group their lists by these ten houses, from house zero to house nine.
+
+#### Reading the Units Place (Ending)
+
+The second digit of that two-digit number is the ending. If the winning number is forty-eight, the ending is eight. A player can select a single ending digit when placing a stake at town counters.
+
+
+## Regional Tournaments Across Meghalaya
+
+Shillong is not the only place with daily matches. Other towns in Meghalaya and Assam hold traditional archery contests.
+
+### The Khanapara Shooting Grounds
+
+Khanapara sits on the border between the Ri-Bhoi district of Meghalaya and the city of Guwahati in Assam. Archery matches take place on an open dirt field near local markets. 
+
+Khanapara matches run after the main Shillong games. The first round starts at four in the afternoon. The second round starts at four forty-five in the afternoon. Shooters face south toward hill slopes. Regional players follow Khanapara results to compare daily hit patterns with Shillong numbers.
+
+### Juwai and Jaintia Hills Contests
+
+Juwai sits in the West Jaintia Hills district. Local archers gather at traditional town fields. Juwai matches run in the early afternoon, earlier than Shillong. The first round takes place at two in the afternoon. The second round takes place at two forty-five in the afternoon. 
+
+Town clubs in Ladrymbai also run their own scheduled rounds on selected weekdays. These Jaintia games follow the same five-by-five arrow counting rules used at Polo Ground.
+
+### Morning and Night Archery Sessions
+
+Other clubs run special early and late sessions. Morning matches start at ten thirty in the morning, with a second round at eleven thirty in the morning. Night matches, known as Knight Arrow games, run under electric ground lights at eight thirty at night and nine thirty at night.
+
+
+## Master Schedule of All Archery Matches
+
+| Tournament Name | Regional Location | First Round (FR) | Second Round (SR) | Operating Days |
+| :--- | :--- | :--- | :--- | :--- |
+| Shillong Teer | Polo Ground, Shillong | 3:30 PM IST | 4:30 PM IST | Monday to Saturday |
+| Khanapara Teer | Ri-Bhoi, Assam Border | 4:00 PM IST | 4:45 PM IST | Monday to Saturday |
+| Juwai Teer | Jowai, Jaintia Hills | 2:00 PM IST | 2:45 PM IST | Monday to Saturday |
+| Bhutan Teer | Regional Borders | 4:10 PM IST | 4:40 PM IST | Monday to Saturday |
+| Shillong Morning | Khasi Hills Grounds | 10:30 AM IST | 11:30 AM IST | Monday to Saturday |
+| Khanapara Morning | Ri-Bhoi Grounds | 10:30 AM IST | 11:30 AM IST | Monday to Saturday |
+| Knight Arrow | Night Range | 8:30 PM IST | 9:30 PM IST | Monday to Saturday |
+| Jowai Ladrimbai | East Jaintia Hills | 4:45 PM IST | 4:50 PM IST | Selected Weekdays |
+
+
+## The Twelve Archery Clubs of KHASA
+
+The Khasi Hills Archery Sports Association unites twelve historic sports clubs. These clubs trace their roots back to village clans across the hills. They oversee the fair conduct of every match.
+
+### List of Governing Member Clubs
+
+1. Mawlai Sports Club
+2. Malki Sports Club
+3. Demthring Sports Club
+4. Laitumkhrah Archery Association
+5. Laban Sports Club
+6. Nongthymmai Cultural and Sports Club
+7. Jaiaw Sports Club
+8. Mawkhar Sports Club
+9. Riatsamthiah Sports Club
+10. Lansonal Archery Club
+11. Prahkynroh Archery Club
+12. Mawngap District Archery Club
+
+### Selection of Daily Shooters
+
+Every Monday morning, club leaders meet to assign archery stations. Each of the twelve clubs sends four to five archers to fill the fifty shooting positions. Archers must hold state registration cards. Men with shaky hands or poor vision lose their roster spots to younger club archers.
+
+
+## Legal Background and State Regulation
+
+Archery wagering in Meghalaya is legal and controlled by state law. It does not operate like underground gaming in other states.
+
+### The Meghalaya Amusements and Betting Tax Act 1982
+
+In the year nineteen eighty-two, the state parliament passed the Meghalaya Amusements and Betting Tax Act. This law recognized archery as a traditional game of skill while regulating ticket sales. It created an official tax stamp on counter slips.
+
+### The 2018 Regulatory Modernization
+
+In the year twenty-eighteen, the state assembly updated the rules. The new law forced counter shops to maintain clear accounting books. It set distance rules to keep booking counters away from primary schools and religious prayer halls. It gave police power to shut down shops operating without state permits.
+
+### Counter License Rules and Age Limits
+
+Only licensed vendors may issue tickets. Stalls must display their state license framed on front walls. The law sets strict customer rules:
+- No person under eighteen years of age may buy a ticket.
+- Counters close ten minutes before the first arrow leaves a bow.
+- Payouts must follow fixed public rates.
+
+
+## Mathematical Formulas Used by Observers
+
+Many spectators use arithmetic steps to track historical number patterns. These formulas do not guarantee future hits, but they provide structured ways to look at past scores.
+
+### The Sum Method for House Numbers
+
+This formula combines the two winning numbers from the previous day:
+1. Write down yesterday's first round score and second round score. If the numbers were forty-two and sixty-eight, add them together: forty-two plus sixty-eight equals one hundred and ten.
+2. Look at the last two digits of that sum: one and zero.
+3. The formula suggests houses one and zero as numbers to watch for the next round.
+
+### The Difference Method for Ending Numbers
+
+This formula measures the gap between rounds:
+1. Take the larger score from yesterday and subtract the smaller score. If the scores were sixty-eight and forty-two, subtract forty-two from sixty-eight. The answer is twenty-six.
+2. Look at the units place of that answer: six.
+3. The formula suggests ending six as a point of interest.
+
+### The Club Chart Calculation
+
+The club chart looks at seven-day hit frequency across all twelve houses. If house three has not appeared in twelve rounds, analysts mark it as an overdue house. If house seven hit five times in three days, analysts mark it as a high-heat house.
+
+
+## Traditional Khasi Dream Interpretations
+
+In Khasi folklore, night dreams connect to daily life and archery signs. Old community elders developed lists linking common dream visions to specific numbers.
+
+| Dream Vision | Khasi Cultural Meaning | Target Numbers |
+| :--- | :--- | :--- |
+| Clear River Water | Good fortune and clean travel | 01, 14, 27 |
+| Flying Eagle or Hawk | High arrow flight over fields | 09, 19, 89 |
+| Wild Serpent or Snake | Fear and long bamboo poles | 08, 18, 28, 88 |
+| Heavy Rain or Storm | Difficult arrow flight and wind | 04, 14, 44 |
+| Wooden House or Hut | Family shelter and home hearth | 02, 12, 52 |
+| Traditional Feasting | Gathering of clan elders | 03, 33, 73 |
+| Walking Through Fire | Danger and sharp iron points | 05, 55, 95 |
+| Catching Fresh Fish | Abundance along river banks | 07, 17, 77 |
+| Dead Tree or Stump | Broken bow or target post | 00, 10, 60 |
+| Gold Coin or Wealth | High payout on forecast ticket | 06, 66, 86 |
+
+
+## Step-by-Step Ticket Verification Guide
+
+Checking your ticket takes five simple steps:
+
+1. **Check the Match Name:** Look at the top of your slip to verify if your ticket was bought for Shillong, Khanapara, or Juwai.
+2. **Confirm the Date:** Check the date printed on your slip. Tickets count only for the specific date of the shoot.
+3. **Match the First Round Score:** Compare the first round score on your slip with the official declared score.
+4. **Match the Second Round Score:** If you hold a forecast combination ticket, check the second round score against the board.
+5. **Collect from the Same Counter:** Present your undamaged paper ticket at the original retail counter where you bought it to receive your payout.
+
+
+## Warning Against Counter Fraud and Internet Scams
+
+The rise of mobile phones brought many scam operations online. Dishonest people run fake accounts on social networks.
+
+### The False Claim of Fixed Leaks
+
+No human knows the winning number before the match. Fifty archers shoot thirty arrows into grass bundles. Weather, wind, archer focus, and bamboo wood make it impossible to plan the final number. Anyone on WhatsApp or Facebook asking for advance cash to share "sure leak numbers" is a fraudster. 
+
+### Rules for Safe Information
+
+- Never send digital payments to private phone numbers promising lucky tips.
+- Do not trust fake screen captures of official score sheets before official draw times.
+- Verify scores only through recognized community boards and trusted result portals like TeerTracker.
