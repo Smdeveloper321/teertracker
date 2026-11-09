@@ -1,5 +1,11 @@
 // Minimal Live Poller & Calculator Engine (Under 2 KB)
 document.addEventListener("DOMContentLoaded", function () {
+  // Mobile nav: auto-scroll active pill into view
+  const activePill = document.querySelector('.nav-pills a.active');
+  if (activePill) {
+    activePill.scrollIntoView({ inline: 'center', block: 'nearest' });
+  }
+
   const now = new Date();
   const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
   const dateEl = document.getElementById("live-date");
