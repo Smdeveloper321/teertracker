@@ -4,108 +4,108 @@
 
   <!-- Home / Shillong Live -->
   <url>
-    <loc>https://teertracker.vercel.app/</loc>
+    <loc>https://teer-result-today.vercel.app/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-shillong.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-shillong.png</image:loc>
       <image:title>Shillong Teer Result Today Live Score</image:title>
     </image:image>
   </url>
 
   <!-- Shillong Morning Teer -->
   <url>
-    <loc>https://teertracker.vercel.app/shillong-morning-teer-result.html</loc>
+    <loc>https://teer-result-today.vercel.app/shillong-morning-teer-result.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-morning.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-morning.png</image:loc>
       <image:title>Shillong Morning Teer Result Today</image:title>
     </image:image>
   </url>
 
   <!-- Shillong Night Teer -->
   <url>
-    <loc>https://teertracker.vercel.app/shillong-night-teer-result.html</loc>
+    <loc>https://teer-result-today.vercel.app/shillong-night-teer-result.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-night.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-night.png</image:loc>
       <image:title>Shillong Night Teer Result Today</image:title>
     </image:image>
   </url>
 
   <!-- Khanapara Teer -->
   <url>
-    <loc>https://teertracker.vercel.app/khanapara-teer-result.html</loc>
+    <loc>https://teer-result-today.vercel.app/khanapara-teer-result.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-khanapara.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-khanapara.png</image:loc>
       <image:title>Khanapara Teer Result Today Live</image:title>
     </image:image>
   </url>
 
   <!-- Common Numbers & Calculator -->
   <url>
-    <loc>https://teertracker.vercel.app/shillong-teer-common-number.html</loc>
+    <loc>https://teer-result-today.vercel.app/shillong-teer-common-number.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-common-number.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-common-number.png</image:loc>
       <image:title>Shillong Teer Common Numbers and Calculator</image:title>
     </image:image>
   </url>
 
   <!-- Previous Archive (12 Months) -->
   <url>
-    <loc>https://teertracker.vercel.app/teer-previous-results.html</loc>
+    <loc>https://teer-result-today.vercel.app/teer-previous-results.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-previous-results.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-previous-results.png</image:loc>
       <image:title>Shillong Teer 12-Month Previous Results Archive</image:title>
     </image:image>
   </url>
 
   <!-- Juwai Teer -->
   <url>
-    <loc>https://teertracker.vercel.app/juwai-teer-result.html</loc>
+    <loc>https://teer-result-today.vercel.app/juwai-teer-result.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-juwai.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-juwai.png</image:loc>
       <image:title>Juwai Teer Result Today Live</image:title>
     </image:image>
   </url>
 
   <!-- Bhutan Teer -->
   <url>
-    <loc>https://teertracker.vercel.app/bhutan-teer-result.html</loc>
+    <loc>https://teer-result-today.vercel.app/bhutan-teer-result.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-bhutan.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-bhutan.png</image:loc>
       <image:title>Bhutan Teer Result Today Live</image:title>
     </image:image>
   </url>
 
   <!-- KHASA Authority Guide -->
   <url>
-    <loc>https://teertracker.vercel.app/about-official-khasa.html</loc>
+    <loc>https://teer-result-today.vercel.app/about-official-khasa.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://teertracker.vercel.app/og-khasa.png</image:loc>
+      <image:loc>https://teer-result-today.vercel.app/og-khasa.png</image:loc>
       <image:title>KHASA Polo Ground Shillong Official Rules</image:title>
     </image:image>
   </url>

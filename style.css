@@ -412,3 +412,63 @@ details p { margin-top: 8px; font-size: 0.88rem; color: var(--text-muted); }
   table th, table td { padding: 8px 10px; font-size: 0.82rem; }
   .silo-col { margin-bottom: 8px; }
 }
+
+
+/* Quick Access Hub Grid */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.hub-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.2s;
+}
+.hub-card:hover {
+  border-color: var(--accent);
+  background: var(--surface-alt);
+  transform: translateY(-2px);
+}
+.hub-card-icon {
+  font-size: 1.3rem;
+  margin-bottom: 2px;
+}
+.hub-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fff;
+}
+.hub-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* Calendar & Reputed Counters styling */
+.badge-closed {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.badge-open {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}

@@ -36,6 +36,6 @@ jobs:
       - name: Commit and Push if updated
         run: |
           git config --global user.name "TeerTracker Bot"
-          git config --global user.email "bot@teertracker.vercel.app"
+          git config --global user.email "bot@teer-result-today.vercel.app"
           git add index.html shillong-teer-common-number.html teer-previous-results.html
           git diff --staged --quiet || (git commit -m "Auto-update Teer numbers [skip ci]" && git push)
