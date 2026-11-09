@@ -33,6 +33,9 @@ header {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+header .container {
+  max-width: 1080px;
+}
 .header-top {
   display: flex;
   align-items: center;
@@ -75,39 +78,67 @@ header {
   border-radius: 50%;
   background: #10b981;
 }
+
+/* Nav Pills (Responsive & Untrimmed) */
 .nav-scroll {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 4px 0 6px;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  overflow-x: visible;
+  white-space: normal;
+  padding: 4px 0 4px;
 }
-.nav-scroll::-webkit-scrollbar { display: none; }
-.nav-pills { display: flex; gap: 8px; }
+.nav-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 .nav-pills a {
   background: var(--surface-alt);
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 8px 14px;
-  min-height: 40px;
+  padding: 6px 12px;
+  min-height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
   border: 1px solid var(--border);
   transition: all 0.2s;
-  scroll-snap-align: start;
   touch-action: manipulation;
+  white-space: nowrap;
 }
 .nav-pills a.active, .nav-pills a:hover {
   background: var(--accent);
   color: #042f2e;
   border-color: var(--accent);
   font-weight: 700;
+}
+
+/* Mobile Horizontal Scroll for Navigation */
+@media (max-width: 767px) {
+  .nav-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    margin: 0 -16px;
+    padding: 4px 16px 6px;
+  }
+  .nav-scroll::-webkit-scrollbar { display: none; }
+  .nav-pills {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+  .nav-pills a {
+    padding: 7px 13px;
+    font-size: 0.82rem;
+    min-height: 38px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
 }
 
 /* Breadcrumb Navigation */

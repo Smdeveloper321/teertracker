@@ -1,8 +1,9 @@
 // Minimal Live Poller & Calculator Engine (Under 2 KB)
 document.addEventListener("DOMContentLoaded", function () {
-  // Mobile nav: auto-scroll active pill into view
+  // Mobile nav: auto-scroll active pill into view only when overflowing
+  const navScroll = document.querySelector('.nav-scroll');
   const activePill = document.querySelector('.nav-pills a.active');
-  if (activePill) {
+  if (navScroll && activePill && navScroll.scrollWidth > navScroll.clientWidth) {
     activePill.scrollIntoView({ inline: 'center', block: 'nearest' });
   }
 
