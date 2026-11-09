@@ -267,6 +267,27 @@ details { background: var(--surface-alt); border: 1px solid var(--border); borde
 summary { font-weight: 600; cursor: pointer; color: #fff; }
 details p { margin-top: 8px; font-size: 0.88rem; color: var(--text-muted); }
 
+/* Feature Media & Image SEO */
+.feature-media {
+  margin: 18px 0;
+  text-align: center;
+}
+.feature-media img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+  background: var(--surface-alt);
+}
+.feature-media figcaption {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
 /* Authority Location Card */
 .location-card {
   background: var(--surface-alt);
