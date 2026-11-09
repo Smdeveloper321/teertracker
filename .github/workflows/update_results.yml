@@ -1,17 +1,13 @@
-name: Auto-Update Teer Results
+name: Auto-Update All Teer Results
 
 on:
   schedule:
     # IST = UTC + 5:30
-    # 10:00 UTC = 3:30 PM IST (Shillong Round 1)
-    # 10:15 UTC = 3:45 PM IST
-    # 10:45 UTC = 4:15 PM IST (Khanapara Round 1)
-    # 11:05 UTC = 4:35 PM IST (Shillong Round 2)
-    # 11:20 UTC = 4:50 PM IST (Khanapara Round 2)
-    # 12:00 UTC = 5:30 PM IST (Evening consolidation)
-    - cron: '0,15,35 10 * * 1-6'
-    - cron: '5,20,35 11 * * 1-6'
-    - cron: '0 12 * * 1-6'
+    # Covers: Morning (10:30-11:30 AM), Bhutan (11:30 AM - 12:30 PM), Juwai (1:30-2:30 PM),
+    # Shillong Day (3:30-4:30 PM), Khanapara (4:10-4:45 PM), Night (10:30-11:30 PM)
+    # 05:00 to 12:00 UTC and 17:00 to 18:30 UTC, Mon-Sat
+    - cron: '0,15,35,50 5,6,7,8,9,10,11,12 * * 1-6'
+    - cron: '0,15,35,50 17,18 * * 1-6'
   workflow_dispatch:
 
 jobs:
@@ -29,7 +25,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Teer Results Updater
+      - name: Run Multi-Game Teer Results Updater
         run: |
           python updater.py
 
@@ -37,5 +33,5 @@ jobs:
         run: |
           git config --global user.name "TeerTracker Bot"
           git config --global user.email "bot@teer-result-today.vercel.app"
-          git add index.html shillong-teer-common-number.html teer-previous-results.html
-          git diff --staged --quiet || (git commit -m "Auto-update Teer numbers [skip ci]" && git push)
+          git add index.html khanapara-teer-result.html juwai-teer-result.html bhutan-teer-result.html shillong-morning-teer-result.html shillong-night-teer-result.html shillong-teer-common-number.html teer-previous-results.html
+          git diff --staged --quiet || (git commit -m "Auto-update live Teer scores [skip ci]" && git push)
