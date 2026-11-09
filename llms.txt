@@ -2,7 +2,7 @@
 
 > TeerTracker is a fast, free, and ad-free portal providing real-time verified scores, historical records, and mathematical formulas for traditional Khasi archery competitions (*Ka Rongbiria*) governed by the Khasi Hills Archery Sports Association (KHASA) in Meghalaya, India.
 
-## Core Results & Daily Live Timetable
+## Core Pages & Live Navigation Links
 
 - [Shillong Teer Live Result Today](https://teertracker.vercel.app/): Real-time First Round (3:30 PM IST) and Second Round (4:30 PM IST) scores declared from Polo Ground, Shillong. Covers official arrow counts, daily timetable, and verification guidelines.
 - [Khanapara Teer Result Today](https://teertracker.vercel.app/khanapara-teer-result.html): Assam border (Ri-Bhoi / Them Marwet) daily archery scores for First Round (4:00 PM IST) and Second Round (4:45 PM IST). Includes yesterday comparisons and consumer anti-fraud advisories.
@@ -10,16 +10,92 @@
 - [Bhutan Teer Result Today](https://teertracker.vercel.app/bhutan-teer-result.html): Daily Bhutan Archery League 145-meter competition results for First Round (4:10 PM IST) and Second Round (4:40 PM IST).
 - [Shillong Morning Teer Result](https://teertracker.vercel.app/shillong-morning-teer-result.html): Early morning session scores declared at 10:30 AM IST (First Round) and 11:30 AM IST (Second Round).
 - [Shillong Night Teer Result](https://teertracker.vercel.app/shillong-night-teer-result.html): Knight Arrow floodlit evening session results declared at 10:30 PM IST (First Round) and 11:30 PM IST (Second Round).
-
-## Analytical Tools & Mathematical Formulas
-
 - [Shillong Teer Common Numbers & Calculator](https://teertracker.vercel.app/shillong-teer-common-number.html): Interactive Club Chart result calculator, daily house and ending targets, and complete 14 Khasi dream number interpretation archetypes.
 - [Shillong Teer 12-Month Previous Results Archive](https://teertracker.vercel.app/teer-previous-results.html): Searchable database of 293+ verified daily draws from December 2025 to November 2026 with client-side date search and frequency tables.
-
-## Legal Governance & Ground Authority
-
 - [Khasi Hills Archery Sports Association (KHASA)](https://teertracker.vercel.app/about-official-khasa.html): Official operational guide, Polo Ground venue coordinates (25.5861° N, 91.8944° E), 12 constituent archery clubs, Meghalaya Amusements and Betting Tax Act 1982, and 2018 Regulation Amendment.
 
-## Full Context & Complete Knowledge Base
+---
 
-- [Complete Knowledge Base (llms-full.txt)](https://teertracker.vercel.app/llms-full.txt): Comprehensive operational rules, manual arrow counting procedures, house/ending arithmetic, and Khasi sporting heritage for detailed AI retrieval and synthesis.
+## Master Schedule of All Archery Matches
+
+| Tournament Name | Regional Location | First Round (FR) | Second Round (SR) | Operating Days |
+| :--- | :--- | :--- | :--- | :--- |
+| Shillong Teer | Polo Ground, Shillong | 3:30 PM IST | 4:30 PM IST | Monday to Saturday |
+| Khanapara Teer | Ri-Bhoi, Assam Border | 4:00 PM IST | 4:45 PM IST | Monday to Saturday |
+| Juwai Teer | Jowai, Jaintia Hills | 2:00 PM IST | 2:45 PM IST | Monday to Saturday |
+| Bhutan Teer | Regional Borders | 4:10 PM IST | 4:40 PM IST | Monday to Saturday |
+| Shillong Morning | Khasi Hills Grounds | 10:30 AM IST | 11:30 AM IST | Monday to Saturday |
+| Khanapara Morning | Ri-Bhoi Grounds | 10:30 AM IST | 11:30 AM IST | Monday to Saturday |
+| Knight Arrow | Night Range | 8:30 PM IST | 9:30 PM IST | Monday to Saturday |
+| Jowai Ladrimbai | East Jaintia Hills | 4:45 PM IST | 4:50 PM IST | Selected Weekdays |
+
+---
+
+## Archery Operations & Ground Counting Mechanics
+
+Archery is an old sport in the Khasi Hills of Meghalaya. Archers meet at Polo Ground in Shillong from Monday to Saturday to shoot bamboo arrows at cylindrical straw targets. State offices run the game under official laws, and licensed counters sell paper tickets in local town markets.
+
+### Target Distance and Equipment
+Archers stand 50 meters away from a cylindrical target made of river reeds and straw, measuring 100 cm tall and 30 cm wide. Bows are handcrafted from split bamboo poles cured over kitchen smoke fires for three months. Arrows measure 70 cm with thin hill bamboo shafts and iron points.
+
+### The Fifty Archers and Arrow Limits
+- **First Round (3:30 PM IST):** 50 licensed archers shoot 30 arrows each (pool of 1,500 arrows total) within a 4-minute window.
+- **Second Round (4:30 PM IST):** 50 licensed archers shoot 20 arrows each (pool of 1,000 arrows total) within a 3-minute window.
+
+### Official Arrow Counting and Two-Digit Score Derivation
+Counting begins the moment the final whistle sounds. Two club judges carry the target into a painted white circle in the middle of the field under the observation of state tax inspectors and club representatives. Workers pull arrows five by five and lay them on bamboo mats, calling tallies out loud in the Khasi language. Only arrows embedded in the straw are counted.
+
+The final two digits of the total arrow count constitute the official winning number:
+- **House (Tens Place):** The first digit of the two-digit score. For example, in score 48, the house is 4.
+- **Ending (Units Place):** The second digit of the two-digit score. In score 48, the ending is 8.
+
+---
+
+## The 12 Constituent Archery Clubs of KHASA
+
+The Khasi Hills Archery Sports Association (KHASA) unites 12 historic constituent clubs:
+1. Mawlai Sports Club
+2. Malki Sports Club
+3. Demthring Sports Club
+4. Laitumkhrah Archery Association
+5. Laban Sports Club
+6. Nongthymmai Cultural and Sports Club
+7. Jaiaw Sports Club
+8. Mawkhar Sports Club
+9. Riatsamthiah Sports Club
+10. Lansonal Archery Club
+11. Prahkynroh Archery Club
+12. Mawngap District Archery Club
+
+---
+
+## Mathematical Formulas Used by Observers
+
+- **Sum Method for House Numbers:** Sum the previous day's FR and SR scores. For 42 and 68, 42 + 68 = 110. The digits 1 and 0 indicate primary house targets.
+- **Difference Method for Ending Numbers:** Subtract the smaller score from the larger score. For 68 and 42, 68 - 42 = 26. The units digit (6) indicates potential ending targets.
+- **Club Chart Calculation:** Evaluates 7-day hit frequencies across all ten houses to identify overdue and high-frequency target clusters.
+
+---
+
+## Traditional Khasi Dream Interpretations
+
+| Dream Vision | Khasi Cultural Meaning | Target Numbers |
+| :--- | :--- | :--- |
+| Clear River Water | Good fortune and clean travel | 01, 14, 27 |
+| Flying Eagle or Hawk | High arrow flight over fields | 09, 19, 89 |
+| Wild Serpent or Snake | Fear and long bamboo poles | 08, 18, 28, 88 |
+| Heavy Rain or Storm | Difficult arrow flight and wind | 04, 14, 44 |
+| Wooden House or Hut | Family shelter and home hearth | 02, 12, 52 |
+| Traditional Feasting | Gathering of clan elders | 03, 33, 73 |
+| Walking Through Fire | Danger and sharp iron points | 05, 55, 95 |
+| Catching Fresh Fish | Abundance along river banks | 07, 17, 77 |
+| Dead Tree or Stump | Broken bow or target post | 00, 10, 60 |
+| Gold Coin or Wealth | High payout on forecast ticket | 06, 66, 86 |
+
+---
+
+## Legal Framework & Consumer Safety Advisory
+
+- **Legal Basis:** Governed under the Meghalaya Amusements and Betting Tax Act 1982 and the 2018 Regulatory Modernization Amendment.
+- **Age Restriction:** Strictly 18 years and above. Wagers close 10 minutes prior to first arrow release.
+- **Anti-Fraud Warning:** The physical count cannot be known in advance. Anyone on WhatsApp, Telegram, or Facebook demanding money for "fixed leak numbers" is running an advance-fee fraud scam. Official results are declared exclusively after physical on-field manual counting.
