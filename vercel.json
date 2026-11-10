@@ -30,7 +30,7 @@
       ]
     },
     {
-      "source": "/(.*\\.html|/)",
+      "source": "/(|.*\\.html|(?:shillong|khanapara|juwai|bhutan|teer|about)-[^.]+)",
       "headers": [
         {
           "key": "Cache-Control",
