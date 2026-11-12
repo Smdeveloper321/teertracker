@@ -79,8 +79,57 @@ header .container {
   background: #10b981;
 }
 
-/* Nav Pills (Responsive & Untrimmed) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Mobile Hamburger Toggle Button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 36px;
+  height: 36px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 6px;
+  touch-action: manipulation;
+  transition: all 0.2s ease;
+}
+.menu-toggle:hover {
+  border-color: var(--accent);
+  background: rgba(16, 185, 129, 0.15);
+}
+.hamburger-bar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.25s ease-in-out;
+}
+.menu-toggle.is-active .hamburger-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+  background: var(--accent);
+}
+.menu-toggle.is-active .hamburger-bar:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.menu-toggle.is-active .hamburger-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+  background: var(--accent);
+}
+
+/* Nav Pills (Desktop Default) */
 .nav-scroll {
+  display: block;
   overflow-x: visible;
   white-space: normal;
   padding: 4px 0 4px;
@@ -114,30 +163,58 @@ header .container {
   font-weight: 700;
 }
 
-/* Mobile Horizontal Scroll for Navigation */
+/* Mobile App-Style Menu Drawer (< 768px) */
 @media (max-width: 767px) {
-  .nav-scroll {
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    scroll-snap-type: x proximity;
-    scrollbar-width: none;
-    margin: 0 -16px;
-    padding: 4px 16px 6px;
+  .menu-toggle {
+    display: flex;
   }
-  .nav-scroll::-webkit-scrollbar { display: none; }
+  .nav-scroll {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 0 6px;
+    border-top: 1px solid var(--border);
+    animation: navSlideDown 0.25s ease forwards;
+  }
+  .nav-scroll.is-open {
+    display: block;
+  }
   .nav-pills {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    gap: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
   }
   .nav-pills a {
-    padding: 7px 13px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 8px;
     font-size: 0.82rem;
-    min-height: 38px;
-    flex-shrink: 0;
-    scroll-snap-align: center;
+    border-radius: 8px;
+    white-space: normal;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .nav-pills a.active {
+    background: var(--accent);
+    color: #042f2e;
+    border-color: var(--accent);
+  }
+  /* 9th item spans both columns */
+  .nav-pills a:last-child {
+    grid-column: span 2;
+  }
+}
+
+@keyframes navSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

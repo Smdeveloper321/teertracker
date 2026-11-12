@@ -1,5 +1,24 @@
 // Minimal Live Poller & Calculator Engine (Under 2 KB)
 document.addEventListener("DOMContentLoaded", function () {
+  // Mobile Hamburger Toggle
+  const menuToggle = document.getElementById("menu-toggle");
+  const navMenu = document.getElementById("nav-menu");
+  if (menuToggle && navMenu) {
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navMenu.classList.toggle("is-open");
+      menuToggle.classList.toggle("is-active", isOpen);
+      menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    document.addEventListener("click", function (e) {
+      if (!navMenu.contains(e.target) && !menuToggle.contains(e.target) && navMenu.classList.contains("is-open")) {
+        navMenu.classList.remove("is-open");
+        menuToggle.classList.remove("is-active");
+        menuToggle.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
   // Mobile nav: auto-scroll active pill into view only when overflowing
   const navScroll = document.querySelector('.nav-scroll');
   const activePill = document.querySelector('.nav-pills a.active');
