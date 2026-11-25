@@ -24,6 +24,6 @@ User-agent: Applebot-Extended
 Allow: /
 
 # LLM Standard Context Feed
-# https://smdeveloper321.github.io/teertracker/llms.txt
+# https://teer-result-today.vercel.app/llms.txt
 
-Sitemap: https://smdeveloper321.github.io/teertracker/sitemap.xml
+Sitemap: https://teer-result-today.vercel.app/sitemap.xml
